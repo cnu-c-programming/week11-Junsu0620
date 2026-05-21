@@ -1,6 +1,6 @@
 #include <stdio.h> 
 
-typeof int (*BinOp)(int, int);
+typedef int (*BinOp)(int, int);
 
 int add(int a, int b) {
   return a + b;
@@ -10,10 +10,10 @@ int mul(int a, int b) {
 }
 
 int main(void) {
-  BimOp ops[2] = {add, mul};
+  BinOp ops[2] = {add, mul};
 
   for (int i = 0; i < 2; i++) {
-    printf("%d\n", ops[i](3,4));
+    printf("%d\n", ops[i](3, 4));
   }
 
   return 0;
