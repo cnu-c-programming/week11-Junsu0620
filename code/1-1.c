@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-typeof struct {
-  int x;
-  int y;
+typedef struct {
+    int x;
+    int y;
 } Point;
 
 int main() {
