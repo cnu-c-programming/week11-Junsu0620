@@ -10,6 +10,7 @@ void print_state(enum State s) {
 case RUMMING:
       printf("State: RUNNING\n");
       break;
+    default: printf("Unknown state\n");
   }
 }
 
