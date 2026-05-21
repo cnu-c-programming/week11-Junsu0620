@@ -6,9 +6,9 @@ typedef struct {
 } Point;
 
 int main() {
-  Point p = {1, 2};
+      Point p = {1, 2};
 
-  printf{"%d %d\n", p.x, p.y};
+      printf{"%d %d\n", p.x, p.y};
 
-  return 0;
+      return 0;
 }
